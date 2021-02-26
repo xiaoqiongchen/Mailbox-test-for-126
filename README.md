@@ -21,7 +21,7 @@
 测试报告生成：本项目使用allure生成HTML测试报告
              cmd窗口进入项目目录，输入：pytest -s --alluredir ./reports/Raw/，此时开始执行测试用例
              执行完继而输入allure generate ./reports/Raw/ -o ./reports/html/ --clean生成报告的目录
-测试结果如图：<img src="./result.png">
+测试结果如图：<img src="./result.png"/>
              
              
              
