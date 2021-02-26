@@ -1,0 +1,59 @@
+{
+  "uid" : "5694c479b78d2a3a",
+  "name" : "test_send_email[send_emaildata3]",
+  "fullName" : "test_main.Test_main#test_send_email",
+  "historyId" : "2cb9562f5ce0afb7e2adc8ef2b2c1a65",
+  "time" : {
+    "start" : 1614240024636,
+    "stop" : 1614240065244,
+    "duration" : 40608
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "发送邮件"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_main"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "send_emaildata",
+    "value" : "{'rowNum': 5, 'sender': '172787078@qq.com', 'title': ' 不念过去，不畏将来，活在当下', 'filename': 'E:\\\\pic\\\\1.jpg', 'content': '\\nxiaoxiao945用夕阳余晖为你温床，用傍晚的安详静你心房'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5694c479b78d2a3a.json",
+  "parameterValues" : [ "{'rowNum': 5, 'sender': '172787078@qq.com', 'title': ' 不念过去，不畏将来，活在当下', 'filename': 'E:\\\\pic\\\\1.jpg', 'content': '\\nxiaoxiao945用夕阳余晖为你温床，用傍晚的安详静你心房'}" ]
+}

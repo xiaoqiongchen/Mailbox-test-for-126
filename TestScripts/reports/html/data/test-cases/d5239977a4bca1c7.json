@@ -1,0 +1,59 @@
+{
+  "uid" : "d5239977a4bca1c7",
+  "name" : "test_create_contact[contact_dicdata3]",
+  "fullName" : "test_main.Test_main#test_create_contact",
+  "historyId" : "e09d70924a78399b1b68554fc8da2cae",
+  "time" : {
+    "start" : 1614239871597,
+    "stop" : 1614239890706,
+    "duration" : 19109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增联系人"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_main"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "contact_dicdata",
+    "value" : "{'rowNum': 5, 'name': 'baby', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '有事做有所期待，日子就是幸福的。', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5239977a4bca1c7.json",
+  "parameterValues" : [ "{'rowNum': 5, 'name': 'baby', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '有事做有所期待，日子就是幸福的。', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+}

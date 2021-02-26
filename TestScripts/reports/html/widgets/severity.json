@@ -1,0 +1,111 @@
+[ {
+  "uid" : "91c7990779310fde",
+  "name" : "test_send_email[send_emaildata1]",
+  "time" : {
+    "start" : 1614239922957,
+    "stop" : 1614239933638,
+    "duration" : 10681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cef3a96cdda461de",
+  "name" : "test_login[datalist0]",
+  "time" : {
+    "start" : 1614239712823,
+    "stop" : 1614239716323,
+    "duration" : 3500
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4af11c9ba0ec74c",
+  "name" : "test_login[datalist1]",
+  "time" : {
+    "start" : 1614239728314,
+    "stop" : 1614239731584,
+    "duration" : 3270
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5239977a4bca1c7",
+  "name" : "test_create_contact[contact_dicdata3]",
+  "time" : {
+    "start" : 1614239871597,
+    "stop" : 1614239890706,
+    "duration" : 19109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c226258d457f792a",
+  "name" : "test_send_email[send_emaildata0]",
+  "time" : {
+    "start" : 1614239900064,
+    "stop" : 1614239912563,
+    "duration" : 12499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44a72a74f6afd928",
+  "name" : "test_create_contact[contact_dicdata1]",
+  "time" : {
+    "start" : 1614239815744,
+    "stop" : 1614239832916,
+    "duration" : 17172
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "175892873ce69949",
+  "name" : "test_create_contact[contact_dicdata0]",
+  "time" : {
+    "start" : 1614239759842,
+    "stop" : 1614239776804,
+    "duration" : 16962
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6200527f3bc0f85b",
+  "name" : "test_login[datalist2]",
+  "time" : {
+    "start" : 1614239745728,
+    "stop" : 1614239748976,
+    "duration" : 3248
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a96fd638b1390414",
+  "name" : "test_send_email[send_emaildata2]",
+  "time" : {
+    "start" : 1614239943037,
+    "stop" : 1614239987305,
+    "duration" : 44268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5694c479b78d2a3a",
+  "name" : "test_send_email[send_emaildata3]",
+  "time" : {
+    "start" : 1614240024636,
+    "stop" : 1614240065244,
+    "duration" : 40608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c6add70fc293789",
+  "name" : "test_create_contact[contact_dicdata2]",
+  "time" : {
+    "start" : 1614239842949,
+    "stop" : 1614239859974,
+    "duration" : 17025
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

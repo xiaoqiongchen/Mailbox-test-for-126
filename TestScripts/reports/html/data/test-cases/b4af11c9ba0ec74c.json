@@ -1,0 +1,65 @@
+{
+  "uid" : "b4af11c9ba0ec74c",
+  "name" : "test_login[datalist1]",
+  "fullName" : "test_main.Test_main#test_login",
+  "historyId" : "e21977f136a0f8059e37466ce4639368",
+  "time" : {
+    "start" : 1614239728314,
+    "stop" : 1614239731584,
+    "duration" : 3270
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '账号或者密码错误' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239724740\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+  "statusTrace" : "self = <TestScripts.test_main.Test_main object at 0x000001D078EB0BB0>\ndatalist = {'assert_word': '账号或者密码错误', 'password': '123456', 'rowNum': 3, 'username': 'xiaoxiao'}\n\n    @allure.story('登录')\n    @pytest.mark.parametrize(\"datalist\", login_data())\n    def test_login(self, datalist):#登录测试方法\n        global driver\n        lo=login(driver)\n        actual_value=lo.login(datalist[\"username\"],datalist[\"password\"])\n        expect_value=datalist[\"assert_word\"]\n>       assert expect_value in actual_value\nE       assert '账号或者密码错误' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239724740\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'\n\ntest_main.py:44: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_main"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datalist",
+    "value" : "{'rowNum': 3, 'username': 'xiaoxiao', 'password': '123456', 'assert_word': '账号或者密码错误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b4af11c9ba0ec74c.json",
+  "parameterValues" : [ "{'rowNum': 3, 'username': 'xiaoxiao', 'password': '123456', 'assert_word': '账号或者密码错误'}" ]
+}

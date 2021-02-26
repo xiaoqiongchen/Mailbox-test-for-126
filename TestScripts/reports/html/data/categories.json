@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '请先进行验证' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239712154\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+      "children" : [ {
+        "name" : "test_login[datalist0]",
+        "uid" : "cef3a96cdda461de",
+        "parentUid" : "f21ceed4cbc57e67ffd5a5fc57d5f5a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614239712823,
+          "stop" : 1614239716323,
+          "duration" : 3500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 2, 'username': 'xiaoqiong_chen', 'password': '123456', 'assert_word': '请先进行验证'}" ]
+      } ],
+      "uid" : "f21ceed4cbc57e67ffd5a5fc57d5f5a4"
+    }, {
+      "name" : "AssertionError: assert '账号或者密码错误' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239724740\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+      "children" : [ {
+        "name" : "test_login[datalist1]",
+        "uid" : "b4af11c9ba0ec74c",
+        "parentUid" : "9a04b7434b9335de3f61431d96174f10",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614239728314,
+          "stop" : 1614239731584,
+          "duration" : 3270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 3, 'username': 'xiaoxiao', 'password': '123456', 'assert_word': '账号或者密码错误'}" ]
+      } ],
+      "uid" : "9a04b7434b9335de3f61431d96174f10"
+    }, {
+      "name" : "AssertionError: assert '通讯录' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239741491\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+      "children" : [ {
+        "name" : "test_login[datalist2]",
+        "uid" : "6200527f3bc0f85b",
+        "parentUid" : "93da0f5ac54d85bd51ae81ef19845c1e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614239745728,
+          "stop" : 1614239748976,
+          "duration" : 3248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 4, 'username': 'xiaoxiao945', 'password': '123456a', 'assert_word': '通讯录'}" ]
+      } ],
+      "uid" : "93da0f5ac54d85bd51ae81ef19845c1e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_create_contact[contact_dicdata0]",
+        "uid" : "175892873ce69949",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614239759842,
+          "stop" : 1614239776804,
+          "duration" : 16962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 2, 'name': '筱筱', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '收藏每一寸清风朗月，憧憬每一个想要的明天', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      }, {
+        "name" : "test_create_contact[contact_dicdata1]",
+        "uid" : "44a72a74f6afd928",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614239815744,
+          "stop" : 1614239832916,
+          "duration" : 17172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 3, 'name': 'superman', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '周末，愿你满心欢喜', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      }, {
+        "name" : "test_create_contact[contact_dicdata2]",
+        "uid" : "4c6add70fc293789",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614239842949,
+          "stop" : 1614239859974,
+          "duration" : 17025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 4, 'name': 'superwoman', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '华丽的跌倒，胜过无谓的徘徊', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

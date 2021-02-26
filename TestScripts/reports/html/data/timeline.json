@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "admin-PC",
+    "children" : [ {
+      "name" : "8356-MainThread",
+      "children" : [ {
+        "name" : "test_send_email[send_emaildata0]",
+        "uid" : "c226258d457f792a",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614239900064,
+          "stop" : 1614239912563,
+          "duration" : 12499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 2, 'sender': '172787078@qq.com', 'title': ' 不念过去，不畏将来，活在当下', 'filename': 'E:\\\\pic\\\\1.jpg', 'content': '\\nxiaoxiao945用夕阳余晖为你温床，用傍晚的安详静你心房'}" ]
+      }, {
+        "name" : "test_create_contact[contact_dicdata3]",
+        "uid" : "d5239977a4bca1c7",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614239871597,
+          "stop" : 1614239890706,
+          "duration" : 19109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 5, 'name': 'baby', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '有事做有所期待，日子就是幸福的。', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      }, {
+        "name" : "test_login[datalist0]",
+        "uid" : "cef3a96cdda461de",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614239712823,
+          "stop" : 1614239716323,
+          "duration" : 3500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 2, 'username': 'xiaoqiong_chen', 'password': '123456', 'assert_word': '请先进行验证'}" ]
+      }, {
+        "name" : "test_send_email[send_emaildata3]",
+        "uid" : "5694c479b78d2a3a",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614240024636,
+          "stop" : 1614240065244,
+          "duration" : 40608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 5, 'sender': '172787078@qq.com', 'title': ' 不念过去，不畏将来，活在当下', 'filename': 'E:\\\\pic\\\\1.jpg', 'content': '\\nxiaoxiao945用夕阳余晖为你温床，用傍晚的安详静你心房'}" ]
+      }, {
+        "name" : "test_create_contact[contact_dicdata2]",
+        "uid" : "4c6add70fc293789",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614239842949,
+          "stop" : 1614239859974,
+          "duration" : 17025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 4, 'name': 'superwoman', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '华丽的跌倒，胜过无谓的徘徊', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      }, {
+        "name" : "test_create_contact[contact_dicdata1]",
+        "uid" : "44a72a74f6afd928",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614239815744,
+          "stop" : 1614239832916,
+          "duration" : 17172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 3, 'name': 'superman', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '周末，愿你满心欢喜', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      }, {
+        "name" : "test_send_email[send_emaildata1]",
+        "uid" : "91c7990779310fde",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614239922957,
+          "stop" : 1614239933638,
+          "duration" : 10681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 3, 'sender': '172787078@qq.com', 'title': ' 不念过去，不畏将来，活在当下', 'filename': 'E:\\\\pic\\\\1.jpg', 'content': '\\nxiaoxiao945用夕阳余晖为你温床，用傍晚的安详静你心房'}" ]
+      }, {
+        "name" : "test_create_contact[contact_dicdata0]",
+        "uid" : "175892873ce69949",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614239759842,
+          "stop" : 1614239776804,
+          "duration" : 16962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 2, 'name': '筱筱', 'email': '172787078@qq.com', 'tel': '15201465958', 'remark': '收藏每一寸清风朗月，憧憬每一个想要的明天', 'Fax1': '123456', 'Fax2': '123456', 'Fax3': '123456', 'address': '北京市海淀区', 'POPO': '123456', 'bir_year': '1999', 'bir_month': '5', 'bir_day': '20', 'homepage': 'https://blog.csdn.net/xiaoxiao_chen945', 'organization': '共和国', 'department': '技术部', 'position': '测试专家', 'role': '架构师', 'member': '架构师'}" ]
+      }, {
+        "name" : "test_login[datalist2]",
+        "uid" : "6200527f3bc0f85b",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614239745728,
+          "stop" : 1614239748976,
+          "duration" : 3248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 4, 'username': 'xiaoxiao945', 'password': '123456a', 'assert_word': '通讯录'}" ]
+      }, {
+        "name" : "test_send_email[send_emaildata2]",
+        "uid" : "a96fd638b1390414",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614239943037,
+          "stop" : 1614239987305,
+          "duration" : 44268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 4, 'sender': '172787078@qq.com', 'title': ' 不念过去，不畏将来，活在当下', 'filename': 'E:\\\\pic\\\\1.jpg', 'content': '\\nxiaoxiao945用夕阳余晖为你温床，用傍晚的安详静你心房'}" ]
+      }, {
+        "name" : "test_login[datalist1]",
+        "uid" : "b4af11c9ba0ec74c",
+        "parentUid" : "d8a4104730591c392fd13805c0490208",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614239728314,
+          "stop" : 1614239731584,
+          "duration" : 3270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'rowNum': 3, 'username': 'xiaoxiao', 'password': '123456', 'assert_word': '账号或者密码错误'}" ]
+      } ],
+      "uid" : "d8a4104730591c392fd13805c0490208"
+    } ],
+    "uid" : "27e32c57d714fe31c50dd30132b971f8"
+  } ]
+}

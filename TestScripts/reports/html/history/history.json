@@ -1,0 +1,217 @@
+{
+  "2cb9562f5ce0afb7e2adc8ef2b2c1a65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5694c479b78d2a3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614240024636,
+        "stop" : 1614240065244,
+        "duration" : 40608
+      }
+    } ]
+  },
+  "e09d70924a78399b1b68554fc8da2cae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5239977a4bca1c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614239871597,
+        "stop" : 1614239890706,
+        "duration" : 19109
+      }
+    } ]
+  },
+  "0772a149204174ca29721bceb026040f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c6add70fc293789",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614239842949,
+        "stop" : 1614239859974,
+        "duration" : 17025
+      }
+    } ]
+  },
+  "1e68e4042d1b006537c302fba1d1a109" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44a72a74f6afd928",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614239815744,
+        "stop" : 1614239832916,
+        "duration" : 17172
+      }
+    } ]
+  },
+  "0d74786432f54b82ada1b335a1f54fa4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "175892873ce69949",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614239759842,
+        "stop" : 1614239776804,
+        "duration" : 16962
+      }
+    } ]
+  },
+  "c94f85babe8443737452b8672b62ab0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cef3a96cdda461de",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请先进行验证' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239712154\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+      "time" : {
+        "start" : 1614239712823,
+        "stop" : 1614239716323,
+        "duration" : 3500
+      }
+    } ]
+  },
+  "e21977f136a0f8059e37466ce4639368" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4af11c9ba0ec74c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '账号或者密码错误' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239724740\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+      "time" : {
+        "start" : 1614239728314,
+        "stop" : 1614239731584,
+        "duration" : 3270
+      }
+    } ]
+  },
+  "0a5a9c4ee8a45f429f3c05acaf246684" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a96fd638b1390414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614239943037,
+        "stop" : 1614239987305,
+        "duration" : 44268
+      }
+    } ]
+  },
+  "1242bae88442534220cea764b7d1407b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6200527f3bc0f85b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '通讯录' in '<html lang=\"zh-cmn-Hans\" style=\"display: block;\"><head>\\n<script id=\"serviceworker\">\\n!function(){try{\"serviceWorker\"...lad&amp;ad_position=login&amp;rnd=1614239741491\" style=\"position: absolute; left: -100px; top: -100px;\"></body></html>'",
+      "time" : {
+        "start" : 1614239745728,
+        "stop" : 1614239748976,
+        "duration" : 3248
+      }
+    } ]
+  },
+  "d9573b126f18c36b2cc3e2e0643aa623" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c226258d457f792a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614239900064,
+        "stop" : 1614239912563,
+        "duration" : 12499
+      }
+    } ]
+  },
+  "3edeeafb61dbee213bb5c5e452b32ffc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91c7990779310fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614239922957,
+        "stop" : 1614239933638,
+        "duration" : 10681
+      }
+    } ]
+  }
+}
