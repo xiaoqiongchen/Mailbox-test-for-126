@@ -23,6 +23,5 @@
              执行完继而输入allure generate ./reports/Raw/ -o ./reports/html/ --clean生成报告的目录  
 测试结果如图：  
 <p>
-<img src="result.png"/>
-<img src="./result.jpg"/>
+<img src="./result.png"/>
 </p>
