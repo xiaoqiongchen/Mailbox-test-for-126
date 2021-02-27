@@ -22,9 +22,7 @@
              cmd窗口进入项目目录，输入：pytest -s --alluredir ./reports/Raw/，此时开始执行测试用例  
              执行完继而输入allure generate ./reports/Raw/ -o ./reports/html/ --clean生成报告的目录  
 测试结果如图：  
-<<<<<<< HEAD
 <p>
 <img src="./result.png"/>
 </p>
-=======
->>>>>>> 3c5b56084be50166cfb5588cb4e1fa1e52482f8c
+
